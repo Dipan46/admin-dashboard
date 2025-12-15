@@ -1,0 +1,80 @@
+.statsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.statCard {
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.2s;
+}
+
+.statCard:hover {
+    transform: translateY(-2px);
+}
+
+.statCount {
+    font-size: 1.875rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
+.statIcon {
+    padding: 0.75rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Icon Colors */
+.iconBlue {
+    background: #dbeafe;
+    color: var(--primary-color);
+}
+
+.iconGreen {
+    background: #dcfce7;
+    color: var(--success-color);
+}
+
+.iconYellow {
+    background: #fef9c3;
+    color: var(--warning-color);
+}
+
+.iconRed {
+    background: #fee2e2;
+    color: var(--danger-color);
+}
+
+/* Recent Blogs Specifics */
+.recentHeader {
+    padding: 0 1.5rem;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.recentRow {
+    padding: 1.5rem;
+    border-bottom: 1px solid #f1f5f9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.actionBtn {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

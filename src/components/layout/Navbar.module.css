@@ -1,0 +1,46 @@
+
+.navbar {
+    height: var(--header-height);
+    background: var(--bg-white);
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.menuBtn {
+    display: none;
+    margin-right: 1rem;
+}
+
+@media (max-width: 768px) {
+    .menuBtn {
+        display: block;
+    }
+}
+
+.userBadge {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: var(--bg-light);
+    padding: 0.4rem 0.8rem;
+    border-radius: 99px;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.avatarCircle {
+    width: 32px;
+    height: 32px;
+    background: #dbeafe;
+    color: var(--primary-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

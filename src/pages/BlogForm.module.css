@@ -1,0 +1,45 @@
+.formContainer {
+    max-width: 800px;
+}
+
+.uploadLabel {
+    flex: 1;
+    border: 2px dashed var(--border-color);
+    border-radius: 0.5rem;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background: #f8fafc;
+    transition: border-color 0.2s;
+}
+
+.uploadLabel:hover {
+    border-color: var(--primary-color);
+    background: #f1f5f9;
+}
+
+.uploadText {
+    font-size: 0.875rem;
+    color: #64748b;
+    margin-top: 0.5rem;
+}
+
+.previewImage {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    border: 1px solid var(--border-color);
+}
+
+.formFooter {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.5rem;
+    border-top: 1px solid #f1f5f9;
+    padding-top: 1.5rem;
+    margin-top: 1rem;
+}
