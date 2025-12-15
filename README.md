@@ -152,11 +152,20 @@ If you wish to extend this project, consider adding:
 2.  **Rich Text Editor:** Replace the standard `<textarea>` with a library like Quill or TinyMCE for formatted blog content.
 3.  **Authentication:** Add a Login page to protect the admin routes.
 4.  **Dark Mode:** Utilize the CSS variables to implement a toggleable dark theme.
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+1. Fork the repository
+2. Create a new branch: `git checkout -b feature/my-feature`
+3. Commit your changes: `git commit -m "Add my feature"`
+4. Push to the branch: `git push origin feature/my-feature`
+5. Open a Pull Request
+   
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
-
----
 
 ## 👨‍💻 Author
 
