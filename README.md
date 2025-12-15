@@ -6,7 +6,7 @@ A comprehensive, responsive, and serverless Blog Administration Panel built with
 
 ## 🔍 Preview
 
-- Live – https://dipan46.github.io/Wordle-Game/
+- Live – https://dipan46.github.io//
 
 - ---
 
@@ -132,15 +132,17 @@ Images are handled client-side using the `FileReader` API.
 
 ## 📸 Screenshots
 
-*(You can replace these placeholders with actual screenshots of your application)*
-
-| Dashboard | Blog List |
-|:---:|:---:|
-|  |  |
-
-| Edit Form | Trash Bin |
-|:---:|:---:|
-|  |  |
+![Dashboard](./prev//dash.png)
+![List](./prev/list.png)
+![delete](./prev/delete.png)
+![blog](./prev/blog.png)
+![form](./prev/form.png)
+![dash-mob](./prev/dash-mob.png)
+![list-mob](./prev/list-mob.png)
+![delete-mob](./prev/delete-mob.png)
+![form-mob](./prev/form-mob.png)
+![blog-mob](./prev/blog-mob.png)
+![nav-mob](./prev/nav-mob.png)
 
 ## 🔮 Future Improvements
 
