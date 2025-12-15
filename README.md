@@ -6,7 +6,7 @@ A comprehensive, responsive, and serverless Blog Administration Panel built with
 
 ## 🔍 Preview
 
-- Live – https://dipan46.github.io//
+- Live – https://dipan46.github.io/admin-dashboard/
 
 - ---
 
